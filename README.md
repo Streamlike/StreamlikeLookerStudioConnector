@@ -1,4 +1,4 @@
-# StreamlikeLookerStudioConnector
+# Streamlike Looker Studio Connector
 
 See [Looker Studio](https://developers.google.com/looker-studio)
 
