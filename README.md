@@ -4,12 +4,14 @@ See [Looker Studio](https://developers.google.com/looker-studio)
 
 This Connector retrieves data from your Streamlike account.
 
+Not a streamlike user yet ? [Contact us](https://www.streamlike.eu/contact).
+
 What do you need ?
 
 - A Streamlike API token generated with analytics, media, playlists, tags, keywords reading rights.
 - That's all
 
-## 1. Endpoints
+## Endpoints
 
 Here is the list of the endpoints currently available
 
