@@ -2,17 +2,16 @@
 
 See [Looker Studio](https://developers.google.com/looker-studio)
 
-This Connector retrieve data from your Streamlike account.
+This Connector retrieves data from your Streamlike account.
 
 What do you need ?
 
-- A Streamlike API token generated with analytics,media,playlists,tags,keywords reading
-  rights.
+- A Streamlike API token generated with analytics, media, playlists, tags, keywords reading rights.
 - That's all
 
 ## 1. Endpoints
 
-Here is the list of the endpoints currently available,
+Here is the list of the endpoints currently available
 
 ### 1. analytics/catalogs
 
@@ -24,14 +23,14 @@ Returns catalog duration per company.
 |----------------------|-----------------------------------------------------------------------------------------------------------|
 | Aggregation          | Aggregation mod  : <br/>	{choice values: ["total"]}                                                       |
 | Company fields       | Company info displayed <br/>{choice values: ["name","logo_url","parent.id","parent.name"] multiple: true} |
-| Company id           | Array of company_id to apply filter                                                                       |
+| Company Id           | Array of company_id to apply filter                                                                       |
 | Include subsidiaries | Boolean                                                                                                   |
 
 - Fields
 
 | Name                       | Type     | Description                      |
 |----------------------------|----------|----------------------------------|
-| Company ID                 | Text     |                                  |
+| Company Id                 | Text     |                                  |
 | Company Name               | Text     | If company field name set        |
 | Date                       | Date     |                                  |
 | Duration Archived          | Duration |                                  |
@@ -52,20 +51,20 @@ Returns playback count per company and per type.
 |----------------------|-----------------------------------------------------------------------------------------------------------|
 | Aggregation          | Aggregation mod  : <br/>	{choice values: ["total"]}                                                       |
 | Company fields       | Company info displayed <br/>{choice values: ["name","logo_url","parent.id","parent.name"] multiple: true} |
-| Company id           | Array of company_id to apply filter                                                                       |
+| Company Id           | Array of company_id to apply filter                                                                       |
 | Include subsidiaries | Boolean                                                                                                   |
-| Keywords IDs         |                                                                                                           |
-| Media ID             |                                                                                                           |
-| Playlist IDs         |                                                                                                           |
+| Keywords Ids         |                                                                                                           |
+| Media Id             |                                                                                                           |
+| Playlist Ids         |                                                                                                           |
 | Source               | {choice values: ["streamlike","youtube","dailymotion"]}                                                   |
-| Tag IDs              |                                                                                                           |
+| Tag Ids              |                                                                                                           |
 | User Token           |                                                                                                           |
 
 - Fields
 
 | Name              | Type   | Description                      |
 |-------------------|--------|----------------------------------|
-| Company ID        | Text   |                                  |
+| Company Id        | Text   |                                  |
 | Company Name      | Text   | If company field name set        |
 | Daylimotion views | Number |                                  |
 | Date              | Date   |                                  |
@@ -87,18 +86,18 @@ Returns bandwidth consumption data per company.
 |----------------------|-----------------------------------------------------------------------------------------------------------|
 | Aggregation          | Aggregation mod  : <br/>	{choice values: ["total"]}                                                       |
 | Company fields       | Company info displayed <br/>{choice values: ["name","logo_url","parent.id","parent.name"] multiple: true} |
-| Company id           | Array of company_id to apply filter                                                                       |
+| Company Id           | Array of company_id to apply filter                                                                       |
 | Include subsidiaries | Boolean                                                                                                   |
-| Keywords IDs         |                                                                                                           |
-| Media ID             |                                                                                                           |
-| Playlist IDs         |                                                                                                           |
-| Tag IDs              |                                                                                                           |
+| Keywords Ids         |                                                                                                           |
+| Media Id             |                                                                                                           |
+| Playlist Ids         |                                                                                                           |
+| Tag Ids              |                                                                                                           |
 
 - Fields
 
 | Name         | Type   | Description                                                     |
 |--------------|--------|-----------------------------------------------------------------|
-| Company ID   | Text   | If Aggregation is set to none                                   |
+| Company Id   | Text   | If Aggregation is set to none                                   |
 | Company Name | Text   | If Aggregation is set to none and company field name set        |
 | Date         | Date   |                                                                 |
 | Live         | Number | Live bandwidth,                                                 |
@@ -120,12 +119,12 @@ Returns Streamlike playbacks top.
 |----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Company id           | Array of company_id to apply filter                                                                                                                                                                                   |
 | Include subsidiaries | Boolean                                                                                                                                                                                                               |
-| Keywords IDs         |                                                                                                                                                                                                                       |
+| Keywords Ids         |                                                                                                                                                                                                                       |
 | Max result           |                                                                                                                                                                                                                       |
 | Media fields         | Media Info displayed<br/>  {choice values: [<br/>"name","permalink",<br/>"cover.files.cover","cover.files.thumbnail","cover.files.large","cover.files.extralarge",<br/>"source.duration","type"<br/>] multiple: true} |
-| Media ID             |                                                                                                                                                                                                                       |
-| Playlist IDs         |                                                                                                                                                                                                                       |
-| Tag IDs              |                                                                                                                                                                                                                       |
+| Media Id             |                                                                                                                                                                                                                       |
+| Playlist Ids         |                                                                                                                                                                                                                       |
+| Tag Ids              |                                                                                                                                                                                                                       |
 | User token           |                                                                                                                                                                                                                       |
 
 - Fields
@@ -133,7 +132,7 @@ Returns Streamlike playbacks top.
 | Name                 | Type   | Description |
 |----------------------|--------|-------------|
 | Cover                | Text   |             |
-| Media ID             | Text   |             |
+| Media Id             | Text   |             |
 | Player               | URL    |             |
 | Name                 | Text   |             |
 | Permalink            | Text   |             |
@@ -154,14 +153,14 @@ Returns Streamlike playbacks top.
 |----------------------|-----------------------------------------------------------------------------------------------------------|
 | Aggregation          | Aggregation mod  : <br/>	{choice values: ["total"]}                                                       |
 | Company fields       | Company info displayed <br/>{choice values: ["name","logo_url","parent.id","parent.name"] multiple: true} |
-| Company id           | Array of company_id to apply filter                                                                       |
+| Company Id           | Array of company_id to apply filter                                                                       |
 | Include subsidiaries | Boolean                                                                                                   |
 
 - Fields
 
 | Name         | Type   | Description                                                     |
 |--------------|--------|-----------------------------------------------------------------|
-| Company ID   | Text   | If Aggregation is set to none                                   |
+| Company Id   | Text   | If Aggregation is set to none                                   |
 | Company Name | Text   | If Aggregation is set to none and company field name set        |
 | Date         | Date   |                                                                 |
 | GHG DEV      | URL    |                                                                 |
