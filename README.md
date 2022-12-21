@@ -21,7 +21,7 @@ Returns catalog duration per company.
 
 | Name                 | Description                                                                                               |
 |----------------------|-----------------------------------------------------------------------------------------------------------|
-| Aggregation          | Aggregation mod  : <br/>	{choice values: ["total"]}                                                       |
+| Aggregation          | Aggregation mode  : <br/>	{choice values: ["total"]}                                                     |
 | Company fields       | Company info displayed <br/>{choice values: ["name","logo_url","parent.id","parent.name"] multiple: true} |
 | Company Id           | Array of company_id to apply filter                                                                       |
 | Include subsidiaries | Boolean                                                                                                   |
@@ -49,7 +49,7 @@ Returns playback count per company and per type.
 
 | Name                 | Description                                                                                               |
 |----------------------|-----------------------------------------------------------------------------------------------------------|
-| Aggregation          | Aggregation mod  : <br/>	{choice values: ["total"]}                                                       |
+| Aggregation          | Aggregation mode  : <br/>	{choice values: ["total"]}                                                     |
 | Company fields       | Company info displayed <br/>{choice values: ["name","logo_url","parent.id","parent.name"] multiple: true} |
 | Company Id           | Array of company_id to apply filter                                                                       |
 | Include subsidiaries | Boolean                                                                                                   |
