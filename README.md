@@ -205,3 +205,7 @@ Returns Streamlike playbacks top.
 | Date                               | Text   |             |
 | Greenhouse gas                     | Number |             |
 | Transfer                           | Number |             |
+
+
+
+[Terms and conditions](https://www.streamlike.eu/terms-and-conditions)
